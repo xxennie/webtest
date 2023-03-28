@@ -56,9 +56,8 @@ li{
     height: 100vh;
     background-color: #ffbf69;
     background-image: url(../images/background.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
 }
 
 .bannerInner{
@@ -213,4 +212,19 @@ footer{
     text-decoration: none;
     font-weight: 400;
     color: #fff;
+}
+
+@media (max-width:1200px){
+    .banner {
+        padding-left: 40px;
+    }
+    .rules-inner {
+        width: 60%;
+        margin-left: 50px;
+    }
+}
+     .photo {
+        width: 30%;
+        height: auto;
+        margin-right: 50px
 }
